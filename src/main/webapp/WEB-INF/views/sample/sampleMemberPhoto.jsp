@@ -21,7 +21,7 @@ img {
 
 	</div>
 	<div id="content">
-		<img src="${pageContext.request.contextPath}/resource/member/photo/${member.m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'"/>
+		<img src="${pageContext.request.contextPath}/member/photo/${member.m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'"/>
 	</div>
 <%@include file = "/WEB-INF/views/header/headerFooter.jsp" %>
 </body>

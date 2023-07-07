@@ -38,7 +38,7 @@
 			</ul>
 		</nav>
 		<div id="header_right">		
-			<img id="my_photo" onclick="showHeaderRightModal();" src="${pageContext.request.contextPath}/resource/member/photo/${sec_m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'">
+			<img id="my_photo" onclick="showHeaderRightModal();" src="${pageContext.request.contextPath}/member/photo/${sec_m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'">
 
 		</div>
 	</header>

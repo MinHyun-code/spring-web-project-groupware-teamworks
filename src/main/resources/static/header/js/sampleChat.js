@@ -38,8 +38,8 @@
 						// 메세지 삽입
 						$('#sample_alert_photo').append(''		
 							+ '<img id="sample_alert_img_photo" onclick="showHeaderRightModal();"'
-							+ ' src="' + _contextPath + '/resource/member/photo/' + jsonMsg.m_id + '.jpg"'
-							+ ' onerror="this.src=\'' + _contextPath + '/resource/member/photo/default.jpg\'">'
+							+ ' src="' + _contextPath + '/member/photo/' + jsonMsg.m_id + '.jpg"'
+							+ ' onerror="this.src=\'' + _contextPath + '/member/photo/default.jpg\'">'
 						);
 						$('#sample_alert_userName').append(jsonMsg.userName);
 						$('#sample_alert_msg').append(jsonMsg.msg);

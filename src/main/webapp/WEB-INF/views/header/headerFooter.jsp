@@ -62,28 +62,9 @@
 				<img alt=" " src="${pageContext.request.contextPath}/header/img/핸드폰.png">
 			</div>
 			<div class="container">
-<!-- 				<div id="logo2"> -->
-<!-- 					<div class="img"> -->
-<%-- 						<img alt="로고.jpg" src="${pageContext.request.contextPath}/header/img/바람개비 로고.png"> --%>
-<!-- 					</div> -->
-<!-- 					<div class="h5"><b>TEAM</b></div> -->
-<!-- 					<div class="h6"><b>works</b></div> -->
-<!-- <!-- 				<span class="ic_gnb_x button_x3"></span> --> -->
-<!-- 					<div class="button_x3"> -->
-<%-- 						<img alt="X" src="${pageContext.request.contextPath}/header/css/images/ic_gnb3.png" onmouseover="this.src='${pageContext.request.contextPath}/header/css/images/ic_gnb4.png'" onmouseout="this.src='${pageContext.request.contextPath}/header/css/images/ic_gnb3.png'"> --%>
-<!-- 					</div> -->
-<!-- 				</div> -->
 				<div id="h1">
 					<div id="h1_1">
 						<h1 id="roomName"></h1>
-<%-- 						<c:choose> --%>
-<%--                             <c:when test="${fn:length($('#roomName').text()) gt 20}"> --%>
-<%--                                <c:out value="${fn:substring($('#roomName').text(), 0, 10)} ${'...'}"></c:out> --%>
-<%--                             </c:when> --%>
-<%--                             <c:otherwise> --%>
-<%--                                <c:out value="${$('#roomName').text()}" /> --%>
-<%--                             </c:otherwise> --%>
-<%-- 		                </c:choose>					 --%>
 					</div>
 					<div id="chatingRoom_icon">
 						<div id="back_back"><button type="button" id="back" value="돌아가기">

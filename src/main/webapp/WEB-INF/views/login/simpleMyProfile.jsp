@@ -27,8 +27,8 @@
 						<td>
 							<div id="image_preview">
 								<img id="my_photo" onclick=""
-									src="${pageContext.request.contextPath}/resource/member/photo/${principal.m_id}.jpg"
-									onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'">
+									src="${pageContext.request.contextPath}/member/photo/${principal.m_id}.jpg"
+									onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'">
 							</div> <input id="multipartFile" type="file" name="multipartFile">
 						</td>
 					</tr>

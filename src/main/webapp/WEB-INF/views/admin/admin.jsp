@@ -117,8 +117,8 @@ function select_PositionList() {
 						+	'name="check" class="chk_1" value="' + member.m_id + '"></td>'
 						+ '<td><div id="profile">'
 						+		'<img style="border-radius: 70%; width: 40px; height: 40px;"'
-						+			'src="' + _contextPath + '/resource/member/photo/' + member.m_id + '.jpg"'
-						+			'onerror="this.src=\'' + _contextPath + '/resource/member/photo/default.jpg\'" />'
+						+			'src="' + _contextPath + '/member/photo/' + member.m_id + '.jpg"'
+						+			'onerror="this.src=\'' + _contextPath + '/member/photo/default.jpg\'" />'
 						+	'</div>'
 						+	'<div id="profile_name">' + member.m_name + '</div></td>'
 						+ '<td>' + member.pt_name + '</td>'
@@ -271,8 +271,8 @@ function select_PositionList() {
 									name="check" class="chk_1" value="${member.m_id}"></td>
 								<td><div id="profile">
 										<img style="border-radius: 70%; width: 40px; height: 40px;"
-											src="${pageContext.request.contextPath}/resource/member/photo/${member.m_id}.jpg"
-											onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'" />
+											src="${pageContext.request.contextPath}/member/photo/${member.m_id}.jpg"
+											onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'" />
 									</div>
 									<div id="profile_name">${member.m_name }</div></td>
 								<td>${member.pt_name }</td>

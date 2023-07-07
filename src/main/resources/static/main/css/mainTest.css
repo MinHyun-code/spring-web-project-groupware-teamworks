@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 #side {
-	 width: 20%;
-	 height: 800px; 
+	 width: 19vw;
+/* 	 height: 800px;  */
 	 float:left;
 }
 
@@ -74,9 +74,6 @@ button {
 #button_new_sign {
 	font-family: 'Noto Sans KR',맑은 고딕,돋움, malgun gothic, dotum,AppleGothic,Helvetica,sans-serif;
 	background-color : white;
-/* 	border-style: solid; */
-/* 	border-radius : 10px; */
-/* 	border-width : 2px; */
 	box-shadow: none;
 	border-color : #D5D5D5;
 	font-size: 21px;
@@ -85,7 +82,6 @@ button {
 	position: relative;
 	border: 0;
     outline: 0;
-    width: 180px;
     padding-top: 30px;
     padding-bottom: 20px;
     margin-left: 25px;
@@ -283,10 +279,10 @@ button {
 
 #content {
 	border-left: 2px solid #EAEAEA;
-	width: 79%; 
+	width: 79vw; 
 	float: right;
 	background-color: #e8e8e8;
-	padding-bottom: 20px;
+	height: 91.5vh;
 }
 
 .set1 {
@@ -296,8 +292,7 @@ button {
 }
 
 .box1 {
-/* 	border: 1px solid black; */
-	height: 250px;
+	height: 27vh;
 	margin-top: 20px;
 	margin-left: 20px;	
 	border-radius: 10px;
@@ -317,7 +312,7 @@ button {
 	float: left;
 	position: relative;
 	width: 33%;
-	height: 250px;
+	height: 27vh;
 }
 .box1_1 .text {
 	font-size: 30px;
@@ -327,27 +322,26 @@ button {
 }
 
 .box1_1 .img {
-	height: 160px;
+	height: 15vh;
 	float: left; 
 }
 
 .box1_1 img {
-	width: 150px;
-	height: 150px;
-	margin-left: 50px;
+	width: 10vw;
+	height: 15vh;
+	margin-left: 1.5vw;
 }
 
 .box1_2 {
 	float: left;
 	width: 67%;
-	height: 250px;
+	height: 27vh;
 }
 
 .box2 {
-/* 	border: 1px solid black; */
-	height: 250px;
+	height: 27vh;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 20px;	
 	border-radius: 10px;
 	background-color: white;
 	border : 2px solid white;
@@ -365,29 +359,28 @@ button {
 	width: 79%;
 	float: left;
 	position: relative;
-	height: 250px;
+	height: 27vh;
 }
 
 .box2_2 {
 	width: 20.9%;
 /* 	border-left: 1px solid black; */
 	float: left;
-	height: 250px;
+	height: 27vh;
 	background-color: #dfffdd;
 }
 
 .box2_2 img {
-	width: 100px;
-    height: 100px;
-    padding-left: 30px;
-    padding-top: 15px;
+	width: 5vw;
+    height: 8vh;
+    padding-left: 1.5vw;
+    padding-top: 9vh;
 }
 
 .box3 {
-/* 	border: 1px solid black; */
-	height: 250px;
+	height: 27vh;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 20px;	
 	border-radius: 10px;
 	background-color: white;
 	border : 2px solid white;
@@ -405,7 +398,7 @@ button {
 	width: 79%;
 	float: left;
 	position: relative;
-	height: 250px;
+	height: 27vh;
 }
 
 .button_download_file {
@@ -418,15 +411,15 @@ button {
 	width: 20.9%;
 /* 	border-left: 1px solid black; */
 	float: left;
-	height: 250px;
+	height: 27vh;
 	background-color: #e0f8ff;
 }
 
 .box3_2 img {
-	width: 70px;
-    height: 70px;
-    padding-left: 40px;
-    padding-top: 25px;
+	width: 5vw;
+    height: 8vh;
+    padding-left: 1.5vw;
+    padding-top: 9vh;
 }
 
 .set2 {
@@ -435,12 +428,11 @@ button {
 }
 
 .box4 {
-/* 	border: 1px solid black; */
-	height: 250px;
+	height: 27vh;
 	margin-top: 20px;
-	margin-right: 20px;
-	background-color: white;
+	margin-left: 20px;	
 	border-radius: 10px;
+	background-color: white;
 	border : 2px solid white;
 }
 
@@ -456,7 +448,7 @@ button {
 	float: left;
 	position: relative;
 	width: 33%;
-	height: 250px;
+	height: 27vh;
 }
 .box4_1 .text {
 	font-size: 30px;
@@ -466,29 +458,29 @@ button {
 }
 
 .box4_1 .img {
-	height: 160px;
+	height: 15vh;
 	float: left; 
 }
 
 .box4_1 img {
-	width: 150px;
-	height: 150px;
-	margin-left: 50px;
+	width: 10vw;
+	height: 15vh;
+	margin-left: 1.5vw;
 }
 
 .box4_2 {
 	float: left;
 	width: 67%;
-	height: 250px;
+	height: 27vh;
 }
 
 .box4_2_1{
-	height: 125px;
+	height: 13.5vh;
 }
 
 .box4_2_1_1{
 	width: 49%;
-	height: 125px;
+	height: 13.5vh;
 	float: left;
 	position: relative;
 }
@@ -497,20 +489,20 @@ button {
 	font-size: 25px;
 	float: left;
 	position: relative;
-	margin-left: 60px;
+	margin-left: 1vw;
     margin-top: 40px;
 }
 
 .text1_2 {
     font-size: 40px;
 	float: left;
-	margin-left: 40px;	
+	margin-left: 2vw;	
 	margin-top: 28px;
 }
 
 .box4_2_1_2{
 	width: 49%;
-	height: 125px;
+	height: 13.5vh;
 	float: left;
 }
 
@@ -518,24 +510,24 @@ button {
 	font-size: 25px;
 	float: left;
 	position: relative;	
-	margin-left: 60px;
+	margin-left: 1vw;
     margin-top: 40px;
 }
 
 .text2_2 {
 	font-size: 40px;
 	float: left;
-    margin-left: 40px;
+    margin-left: 2vw;
     margin-top: 28px;
 }
 
 .box4_2_2{
-	height: 125px;
+	height: 13.5vh;
 }
 
 .box4_2_2_1{
 	width: 49%;
-	height: 125px;
+	height: 13.5vh;
 	float: left;
 	position: relative;
 }
@@ -544,20 +536,20 @@ button {
 	font-size: 25px;
 	float: left;
 	position: relative;
-	margin-left: 60px;
+	margin-left: 1vw;
     margin-top: 40px;
 }
 
 .text3_2 {
 	font-size: 40px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 2vw;
 	margin-top: 28px;	
 }
 
 .box4_2_2_2{
 	width: 49%;
-	height: 125px;
+	height: 13.5vh;
 	float: left;
 }
 
@@ -565,25 +557,24 @@ button {
 	font-size: 25px;
 	float: left;
 	position: relative;
-	margin-left: 60px;
+	margin-left: 1vw;
     margin-top: 40px;
 }
 
 .text4_2 {
 	font-size: 40px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 2vw;
 	margin-top: 28px;
 	
 }
 
 .box5 {
-/* 	border: 1px solid black; */
-	height: 250px;
+	height: 27vh;
 	margin-top: 20px;
-	margin-right: 20px;
-	background-color: white;
+	margin-left: 20px;	
 	border-radius: 10px;
+	background-color: white;
 	border : 2px solid white;
 }
 
@@ -599,31 +590,30 @@ button {
 	width: 79%;
 	float: left;
 	position: relative;
-	height: 250px;
+	height: 27vh;
 }
 
 .box5_2 {
 	width: 20.9%;
 /* 	border-left: 1px solid black; */
 	float: left;
-	height: 250px;
+	height: 27vh;
 	background-color: #f9f9e1;
 }
 
 .box5_2 img {
-	width: 100px;
-    height: 100px;
-    padding-left: 30px;
-    padding-top: 25px;
+	width: 5vw;
+    height: 8vh;
+    padding-left: 1.5vw;
+    padding-top: 9vh;
 }
 
 .box6 {
-/* 	border: 1px solid black; */
-	height: 250px;
+	height: 27vh;
 	margin-top: 20px;
-	margin-right: 20px;
-	background-color: white;
+	margin-left: 20px;	
 	border-radius: 10px;
+	background-color: white;
 	border : 2px solid white;
 	
 }
@@ -640,20 +630,20 @@ button {
 	width: 79%;
 	float: left;
 	position: relative;
-	height: 250px;
+	height: 27vh;
 }
 
 .box6_2 {
 	width: 20.9%;
 /* 	border-left: 1px solid black; */
 	float: left;
-	height: 250px;
+	height: 27vh;
 	background-color: #ffe6ff;
 }
 
 .box6_2 img {
-	width: 100px;
-    height: 100px;
-    padding-left: 30px;
-    padding-top: 25px;
+	width: 5vw;
+    height: 8vh;
+    padding-left: 1.5vw;
+    padding-top: 9vh;
 }

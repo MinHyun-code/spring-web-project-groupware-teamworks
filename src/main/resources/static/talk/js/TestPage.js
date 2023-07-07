@@ -21,8 +21,8 @@ function refreshNumOfAllUnread() {
 			if(res == 0) {
 				$('.blue_circle').hide();
 			}else {
-				$('.blue_circle').show();
 				$('.blue_circle').text(res);
+				$('.blue_circle').show();
 			}
 		}
 	});
@@ -41,7 +41,7 @@ $(document).ready(function() {
    					 $('#memberlist').append(
    					 	'<tr><td style="padding: 5px;"><input type="hidden" id="m_id2" value="'
    					 	+ memberList[i].m_id + '"'
-   					 	+ '><sec:authorize access="isAuthenticated()"><sec:authentication property="principal.username" var="sec_m_id" /><img src="' + _contextPath + '/resource/member/photo/' + memberList[i].m_id + '.jpg" onerror=this.src="' + _contextPath + '/resource/member/photo/default.jpg" style="width: 50px; height: 50px; border-radius: 30%; margin-left: 10px;"></sec:authorize></td><td><button type="button"  id="chat2" onclick="getRoomOfApi('
+   					 	+ '><sec:authorize access="isAuthenticated()"><sec:authentication property="principal.username" var="sec_m_id" /><img src="' + _contextPath + '/member/photo/' + memberList[i].m_id + '.jpg" onerror=this.src="' + _contextPath + '/member/photo/default.jpg" style="width: 50px; height: 50px; border-radius: 30%; margin-left: 10px;"></sec:authorize></td><td><button type="button"  id="chat2" onclick="getRoomOfApi('
    					 	+ '\''
    					 	+ memberList[i].m_id
    					 	+ '\''
@@ -56,8 +56,6 @@ $(document).ready(function() {
 				$('.phone_bg2').hide();
 				$('.phone_bg').show();
 				$('#groupRoomlist').hide();
-				$('#Test').hide();
-				$('#TestCircle').hide();
 				$('.talkBox').hide();
 				$('#insertRoom').hide();
 								
@@ -89,7 +87,7 @@ $(document).ready(function() {
    					 $('#memberlist').append(
    					 	'<tr><td style="padding: 5px;"><input type="hidden" id="m_id2" value="'
    					 	+ memberList[i].m_id + '"'
-   					 	+ '><sec:authorize access="isAuthenticated()"><sec:authentication property="principal.username" var="sec_m_id" /><img src="' + _contextPath + '/resource/member/photo/' + memberList[i].m_id + '.jpg" onerror=this.src="' + _contextPath + '/resource/member/photo/default.jpg" style="width: 50px; height: 50px; border-radius: 30%; margin-left: 10px;"></sec:authorize></td><td><button type="button"  id="chat2" onclick="getRoomOfApi('
+   					 	+ '><sec:authorize access="isAuthenticated()"><sec:authentication property="principal.username" var="sec_m_id" /><img src="' + _contextPath + '/member/photo/' + memberList[i].m_id + '.jpg" onerror=this.src="' + _contextPath + '/member/photo/default.jpg" style="width: 50px; height: 50px; border-radius: 30%; margin-left: 10px;"></sec:authorize></td><td><button type="button"  id="chat2" onclick="getRoomOfApi('
    					 	+ '\''
    					 	+ memberList[i].m_id
    					 	+ '\''
@@ -224,9 +222,9 @@ function getGroupRoomList() {
                          '<tr><td><input type="hidden" id="m_id2" value="'
                          + roomList[i].m_id + '"'
                         + '><td id="img_set">'
-                        +  (roomList[i].talkerList[3] == null ? (roomList[i].talkerList[2] == null ? '<img id="img1_1" src="'+_contextPath+'/resource/member/photo/'+roomList[i].talkerList[0]+'.jpg" onerror=this.src="'+_contextPath+'/resource/member/photo/default.jpg">' : '<img id="img1_2" src="'+_contextPath+'/resource/member/photo/'+roomList[i].talkerList[0]+'.jpg" onerror=this.src="'+_contextPath+'/resource/member/photo/default.jpg">') : '<img id="img1_3" src="'+_contextPath+'/resource/member/photo/'+roomList[i].talkerList[0]+'.jpg" onerror=this.src="'+_contextPath+'/resource/member/photo/default.jpg"><br>')
-                        +  (roomList[i].talkerList[2] != null ? (roomList[i].talkerList[3] != null ? '<img id="img2_1" src="'+_contextPath+'/resource/member/photo/'+roomList[i].talkerList[2]+'.jpg" onerror=this.src="'+_contextPath+'/resource/member/photo/default.jpg">' : '<img id="img2_2" src="'+_contextPath+'/resource/member/photo/'+roomList[i].talkerList[2]+'.jpg" onerror=this.src="'+_contextPath+'/resource/member/photo/default.jpg">') : '')
-                        +  (roomList[i].talkerList[3] != null ? '<img id="img3" src="'+_contextPath+'/resource/member/photo/'+roomList[i].talkerList[3]+'.jpg" onerror=this.src="'+_contextPath+'/resource/member/photo/default.jpg">': '')	
+                        +  (roomList[i].talkerList[3] == null ? (roomList[i].talkerList[2] == null ? '<img id="img1_1" src="'+_contextPath+'/member/photo/'+roomList[i].talkerList[0]+'.jpg" onerror=this.src="'+_contextPath+'/member/photo/default.jpg">' : '<img id="img1_2" src="'+_contextPath+'/member/photo/'+roomList[i].talkerList[0]+'.jpg" onerror=this.src="'+_contextPath+'/member/photo/default.jpg">') : '<img id="img1_3" src="'+_contextPath+'/member/photo/'+roomList[i].talkerList[0]+'.jpg" onerror=this.src="'+_contextPath+'/member/photo/default.jpg"><br>')
+                        +  (roomList[i].talkerList[2] != null ? (roomList[i].talkerList[3] != null ? '<img id="img2_1" src="'+_contextPath+'/member/photo/'+roomList[i].talkerList[2]+'.jpg" onerror=this.src="'+_contextPath+'/member/photo/default.jpg">' : '<img id="img2_2" src="'+_contextPath+'/member/photo/'+roomList[i].talkerList[2]+'.jpg" onerror=this.src="'+_contextPath+'/member/photo/default.jpg">') : '')
+                        +  (roomList[i].talkerList[3] != null ? '<img id="img3" src="'+_contextPath+'/member/photo/'+roomList[i].talkerList[3]+'.jpg" onerror=this.src="'+_contextPath+'/member/photo/default.jpg">': '')	
                         + '</td><td style="width:150px;"><button type="button"  id="chat" onclick="getRoomOfApi2('
                          + '\''
                          + roomList[i].tkrm_num
@@ -723,8 +721,6 @@ $(document).ready(function() {
 	$(".button_x3").on("click", function () {
 		$('#groupRoomlist').hide();
 		$('.chatModal').hide();
-		$('#TestCircle').show();
-		$('#Test').show();
 		// 안읽은 메시지 숫자 가져오기
 		refreshNumOfAllUnread();
 	});

@@ -140,7 +140,7 @@
 						<td><img alt="image"
 							src="${pageContext.request.contextPath}/board/img/white.png"
 							style="width: 0px; height: 34px;"
-							class="td_${reply.rp_num}_${reply.rp_depth}"><img style="border-radius:70%; width:35px; height: 35px; " src="${pageContext.request.contextPath}/resource/member/photo/${reply.m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'"/>${reply.m_name}
+							class="td_${reply.rp_num}_${reply.rp_depth}"><img style="border-radius:70%; width:35px; height: 35px; " src="${pageContext.request.contextPath}/member/photo/${reply.m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'"/>${reply.m_name}
 							${reply.pt_name}
 							<button class="ic_answer"
 								style="background: transparent; border: 0; font-size: 15px; font-weight: bold; color: #8c8c8c"
@@ -206,7 +206,7 @@
 				<table class="table_rp"
 					style="width: 100%; height: 30px; margin-top: 20px; padding-bottom: 30px; border-bottom: 2px solid #D5D5D5;">
 					<tr>
-						<td style="width: 100%;"><div style="float: left;"><img style="border-radius:70%; width:35px; height: 35px; margin-left: 60px;" src="${pageContext.request.contextPath}/resource/member/photo/${m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'"/></div><div style="display: inline-block; margin-left: 5px;"><input 
+						<td style="width: 100%;"><div style="float: left;"><img style="border-radius:70%; width:35px; height: 35px; margin-left: 60px;" src="${pageContext.request.contextPath}/member/photo/${m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'"/></div><div style="display: inline-block; margin-left: 5px;"><input 
 							type="text" id="rp_content" name="rp_content"></div>
 							<button type="submit" id="replyUpdete"
 								onclick="location.href='${pageContext.request.contextPath}/community/view'">댓글등록</button>

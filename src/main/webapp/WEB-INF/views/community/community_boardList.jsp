@@ -133,8 +133,8 @@
 			<ol id="scroll" style="display: none; list-style: none;">
 				<c:forEach var="bc" items="${boardListOfJoinedCommunity }">
 					<li class="li">${bc.m_name} 
-						<img style="border-radius:70%; width:30px; height: 30px; " src="${pageContext.request.contextPath}/resource/member/photo/${ps.m_id}.jpg" 
-							 onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'"/> 
+						<img style="border-radius:70%; width:30px; height: 30px; " src="${pageContext.request.contextPath}/member/photo/${ps.m_id}.jpg" 
+							 onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'"/> 
 					</li>
 					
 				</c:forEach>
@@ -196,7 +196,7 @@
 						<td>${ps.p_num}</td>
 						<td><a style="color: #666666;"
 							href='${pageContext.request.contextPath}/community/view?p_num=${ps.p_num}'>${ps.p_name}</a></td>
-						<td>${ps.m_name} ${ps.pt_name}<img style="border-radius:70%; width:30px; height: 30px; " src="${pageContext.request.contextPath}/resource/member/photo/${ps.m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'"/></td>
+						<td>${ps.m_name} ${ps.pt_name}<img style="border-radius:70%; width:30px; height: 30px; " src="${pageContext.request.contextPath}/member/photo/${ps.m_id}.jpg" onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'"/></td>
 						<td><fmt:formatDate value="${ps.p_regdate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 						<td>${ps.p_view}</td>
 					</tr>

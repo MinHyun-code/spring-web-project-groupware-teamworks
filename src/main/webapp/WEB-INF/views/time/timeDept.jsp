@@ -263,8 +263,8 @@
 					<td>
 					<div id="profile" style="float: left; padding-top:15px;">
                               <img style="border-radius: 70%; width: 40px; height: 40px;"
-                                 src="${pageContext.request.contextPath}/resource/member/photo/${member.m_id}.jpg"
-                                 onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'" />
+                                 src="${pageContext.request.contextPath}/member/photo/${member.m_id}.jpg"
+                                 onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'" />
                            </div><div style="display: inline-block; padding-top: 20px; padding-left: 5px;">
 					<span style="font-size: 18px; font-weight: bold;">${member.m_name } </span></div>
 					<span class="td_span" style="font-size: 18px; font-weight: bold;">${member.pt_name }</span>

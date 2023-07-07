@@ -76,8 +76,8 @@ function myReplace() {
 				<li>
 				<div id="profile">
 									<img style="border-radius: 70%; width: 30px; height: 30px; padding-top: 7px;"
-										src="${pageContext.request.contextPath}/resource/member/photo/${ps.m_id}.jpg"
-										onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'" /></div> 
+										src="${pageContext.request.contextPath}/member/photo/${ps.m_id}.jpg"
+										onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'" /></div> 
 									${ps.m_name}${ps.pt_name}&nbsp; &nbsp; &nbsp;
 									<fmt:formatDate value="${ps.p_regdate}"
 										pattern="yyyy-MM-dd HH:mm:ss" />

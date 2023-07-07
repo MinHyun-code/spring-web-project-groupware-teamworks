@@ -203,8 +203,8 @@ function addressDelete(adg_num) {
 								name="check" value="${member.m_id }" class="chk"></td>
 							<td><div id="profile" style="float: left">
                               <img style="border-radius: 70%; width: 40px; height: 40px;"
-                                 src="${pageContext.request.contextPath}/resource/member/photo/${member.m_id}.jpg"
-                                 onerror="this.src='${pageContext.request.contextPath}/resource/member/photo/default.jpg'" />
+                                 src="${pageContext.request.contextPath}/member/photo/${member.m_id}.jpg"
+                                 onerror="this.src='${pageContext.request.contextPath}/member/photo/default.jpg'" />
                            </div><div style="display: inline-block; padding-top: 8px;">&nbsp&nbsp${member.m_name }</div></td>
 							<c:if test="${member.m_empnum > 0}">
 								<td>${member.m_empnum }</td>
